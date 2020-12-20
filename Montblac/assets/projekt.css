@@ -1,0 +1,271 @@
+body{
+    background-color: #060507;
+    margin: 0;
+    z-index: 2;
+}
+.icon{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 52px;
+    top: 52px;
+    z-index: 1;
+}
+
+.stroke #gold{
+    position: absolute;
+    width: 375px;
+    height: 560px;
+    left: 1330px;
+    top: -100px;
+    z-index: 1;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+.stroke{
+    position: absolute;
+    width: 1742px;
+    height: 1124px;
+    left: 20px;
+    top: 20px;
+    background: #060507;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 32px;
+    overflow: hidden;
+    z-index: 1;
+}
+.logo{
+    position: absolute;
+    left: 30px;
+    right: 88.03%;
+    top: 20px;
+    bottom: 80.35%;
+    background-color: none;
+}
+.bikes{
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    left: 410px;
+    top: 45px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.accessories{
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    left: 570px;
+    top: 45px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.newtech{
+    position: absolute;
+    width: 146px;
+    height: 20px;
+    left: 800px;
+    top: 45px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.explore{
+    position: absolute;
+    width: 96px;
+    height: 20px;
+    left: 1020px;
+    top: 45px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.stroke #circle{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 850px;
+    top: 160px;
+    background: none;
+    z-index: 1;
+}
+.sidelow{
+    position: absolute;
+    width: 353px;
+    height: 752px;
+    left: 1389px;
+    top: 400px;
+    padding: 5px 0 0 30px;
+    background-color: #060507;
+    z-index: 4;
+    background: linear-gradient(90deg, #060507 0%, #060507 100%);
+}
+.stat{
+    position: relative;
+    width: 315px;
+    height: 148px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+}
+.title{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #3F3E44;
+}
+.small{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+.big{
+    margin: 20px 0;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.info{
+    position: absolute;
+    width: 406px;
+    height: 92px;
+    left: 610px;
+    top: 970px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.manje{
+    position: absolute;
+    width: 72px;
+    height: 30px;
+    left: 100px;
+    top: 970px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.veće{
+    position: absolute;
+    width: 72px;
+    height: 30px;
+    left: 490px;
+    top: 970px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+.line .line1{
+    position: absolute;
+    width: 140px;
+    height: 5px;
+    left: 140px;
+    top: 980px;
+    background: #A75B12;
+}
+.line .line2{
+    position: absolute;
+    width: 225px;
+    height: 5px;
+    left: 250px;
+    top: 980px;
+    background: #FFFFFF;
+}
+#bla1{
+    position: absolute;
+    width: 822px;
+    height: 150px;
+    left: 0;
+    top: 700px;
+    z-index: 2;
+    background: none;
+}
+#bla2{
+    height: 150xp;
+    width: 822px;
+    left: 890px;
+    top: 700px;
+    z-index: 3;
+    background:none;
+    position: absolute;
+}
+.stroke  #bike{
+    position: absolute;
+    width: 1032px;
+    height: 700px;
+    left: 0;
+    top: 120px;
+    z-index: -2;
+}
+.stroke #wheel{
+    position: absolute;
+    width: 316px;
+    height: 700px;
+    left: 1050px;
+    top: 163px;
+    z-index: 2;
+}
+.stroke #back{
+    position: absolute;
+    width: 316px;
+    height: 256px;
+    left: 1050px;
+    top: 860px;
+    z-index: 2;
+}
